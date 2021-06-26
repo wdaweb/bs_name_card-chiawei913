@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <script src="./js/jquery-3.6.0.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+  <title>Document</title>
+  <style>
+    h2{
+      margin: 1rem 0;
+      line-height: 1.5rem;
+    }
+    h5{
+      margin: 1rem 0;
+      line-height: 3rem;
+    }
+    body{
+      background: #eee;
+    }
+    .container{
+      margin-bottom: 2rem;
+    }
+    #size {
+     font-size: 0.01px;
+    }
+    img{
+      width:200px; 
+      height:200px;
+    }
+    @media (min-width: 576px) {
+      img{
+        width: auto;  
+        height: 400px;
+      }
+      .card-body{
+        padding-left: 3rem;
+      }
+      h2{
+         margin: 1rem 0;
+         line-height: 2rem;
+         font-size: 3rem;
+      }
+      h5{
+         margin: 1rem 0;
+         line-height: 4rem;
+         font-size: 2rem;
+      }
+      h6{
+         margin: 1rem 0;
+         line-height: 1.5rem;
+         font-size: 1.5rem;
+      }
+      #size {
+        font-size: 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="card d-flex flex-sm-row">
+          <div class="bg-dark d-flex justify-content-center">
+            <img src="./fire.png" alt="...">
+          </div>
+          <div class="card-body ps-sm-5 d-sm-flex flex-sm-column justify-content-sm-center">
+            <h6 class="card-subtitle text-muted p-0 m-0"><small>Front-end Designer Student</small></h6>
+            <h2 class="card-title p-0 m-0">Chiawei Chiang</h2>
+            <h5 class="card-subtitle mb-5 text-muted">泰 山 職 訓 局</h5>
+            <p class="card-text p-0 m-0"><small id="size" class="form-text text-muted">住址：新北市泰山區貴子里致遠新村55之1號</small></p>
+            <p class="card-text p-0 m-0"><small id="size" class="form-text text-muted">電話：02-2901-8274</small></p>
+            <p class="card-text p-0 m-0"><small id="size" class="form-text text-muted">E-mail：Chiawei@example.cc</small></p>
+            <p class="card-text p-0 m-0"><small id="size" class="form-text text-muted">網站：http://www.chiawei.example.cc</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
